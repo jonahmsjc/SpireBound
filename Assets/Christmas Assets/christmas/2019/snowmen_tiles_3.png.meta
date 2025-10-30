@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 8628c98f11b6b1c4fa33588890d36db3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3348863958492371026
+    second: snowmen_tiles_3_0
+  - first:
+      213: 3694039926415184659
+    second: snowmen_tiles_3_1
+  - first:
+      213: 3831943045238204666
+    second: snowmen_tiles_3_2
+  - first:
+      213: 2804414388477370684
+    second: snowmen_tiles_3_3
+  - first:
+      213: -3726348408286489541
+    second: snowmen_tiles_3_4
+  - first:
+      213: 4653793491895818432
+    second: snowmen_tiles_3_5
+  - first:
+      213: 6333035887479908502
+    second: snowmen_tiles_3_6
+  - first:
+      213: 6556128674300029295
+    second: snowmen_tiles_3_7
+  - first:
+      213: -1252951189456474280
+    second: snowmen_tiles_3_8
+  - first:
+      213: -9104568004942608134
+    second: snowmen_tiles_3_9
+  - first:
+      213: -1597372591222864784
+    second: snowmen_tiles_3_10
+  - first:
+      213: -5403122277845404580
+    second: snowmen_tiles_3_11
+  - first:
+      213: 8209023763474354874
+    second: snowmen_tiles_3_12
+  - first:
+      213: 7965584352162291455
+    second: snowmen_tiles_3_13
+  - first:
+      213: -3990477923299195096
+    second: snowmen_tiles_3_14
+  - first:
+      213: 4072360916660322517
+    second: snowmen_tiles_3_15
+  - first:
+      213: -4337837376194581771
+    second: snowmen_tiles_3_16
+  - first:
+      213: 2268653515352797215
+    second: snowmen_tiles_3_17
+  - first:
+      213: 7945967560262092603
+    second: snowmen_tiles_3_18
+  - first:
+      213: -4103261889538100572
+    second: snowmen_tiles_3_19
+  - first:
+      213: 4029705715974435009
+    second: snowmen_tiles_3_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: snowmen_tiles_3_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 197
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea724f809f17681d0800000000000000
+      internalID: -3348863958492371026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowmen_tiles_3_1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 200
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3135610cdbdd34330800000000000000
+      internalID: 3694039926415184659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowmen_tiles_3_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 200
+        width: 41
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8a3faa5ebcd2530800000000000000
+      internalID: 3831943045238204666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowmen_tiles_3_3
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 239
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c31203427084be620800000000000000
+      internalID: 2804414388477370684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowmen_tiles_3_4
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 239
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34ddbe9dd9594cc0800000000000000
+      internalID: -3726348408286489541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowmen_tiles_3_5
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 239
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c899762688959040800000000000000
+      internalID: 4653793491895818432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowmen_tiles_3_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 200
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6986a07f59673e750800000000000000
+      internalID: 6333035887479908502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowmen_tiles_3_7
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 152
+        width: 95
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f69e76d1b4c0cfa50800000000000000
+      internalID: 6556128674300029295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowmen_tiles_3_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 101
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f2b87188f9c9ee0800000000000000
+      internalID: -1252951189456474280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowmen_tiles_3_9
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 104
+        width: 41
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8420833a316a180800000000000000
+      internalID: -9104568004942608134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowmen_tiles_3_10
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 101
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074473e671ef4d9e0800000000000000
+      internalID: -1597372591222864784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowmen_tiles_3_11
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 104
+        width: 41
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54760f4ae04405b0800000000000000
+      internalID: -5403122277845404580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowmen_tiles_3_12
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 143
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab211ae9e9f4ce170800000000000000
+      internalID: 8209023763474354874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowmen_tiles_3_13
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 53
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe1b0bc3c07b8e60800000000000000
+      internalID: 7965584352162291455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowmen_tiles_3_14
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 95
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82786b1a879fe98c0800000000000000
+      internalID: -3990477923299195096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowmen_tiles_3_15
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 53
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d009ba6daee38830800000000000000
+      internalID: 4072360916660322517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowmen_tiles_3_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 5
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa6282a3e7ecc3c0800000000000000
+      internalID: -4337837376194581771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowmen_tiles_3_17
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 8
+        width: 41
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f107b053a50eb7f10800000000000000
+      internalID: 2268653515352797215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowmen_tiles_3_18
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 5
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b370332856fb54e60800000000000000
+      internalID: 7945967560262092603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowmen_tiles_3_19
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 8
+        width: 41
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2fead2d094e07c0800000000000000
+      internalID: -4103261889538100572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowmen_tiles_3_20
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 5
+        width: 89
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c074069ff36ce730800000000000000
+      internalID: 4029705715974435009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      snowmen_tiles_3_0: -3348863958492371026
+      snowmen_tiles_3_1: 3694039926415184659
+      snowmen_tiles_3_10: -1597372591222864784
+      snowmen_tiles_3_11: -5403122277845404580
+      snowmen_tiles_3_12: 8209023763474354874
+      snowmen_tiles_3_13: 7965584352162291455
+      snowmen_tiles_3_14: -3990477923299195096
+      snowmen_tiles_3_15: 4072360916660322517
+      snowmen_tiles_3_16: -4337837376194581771
+      snowmen_tiles_3_17: 2268653515352797215
+      snowmen_tiles_3_18: 7945967560262092603
+      snowmen_tiles_3_19: -4103261889538100572
+      snowmen_tiles_3_2: 3831943045238204666
+      snowmen_tiles_3_20: 4029705715974435009
+      snowmen_tiles_3_3: 2804414388477370684
+      snowmen_tiles_3_4: -3726348408286489541
+      snowmen_tiles_3_5: 4653793491895818432
+      snowmen_tiles_3_6: 6333035887479908502
+      snowmen_tiles_3_7: 6556128674300029295
+      snowmen_tiles_3_8: -1252951189456474280
+      snowmen_tiles_3_9: -9104568004942608134
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 2f6b4ac07c2dd6b41851d01cb4710fe6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 248919880487755901
+    second: xmastoytiles_2_0
+  - first:
+      213: -6005967092777140206
+    second: xmastoytiles_2_1
+  - first:
+      213: -5066932341413125411
+    second: xmastoytiles_2_2
+  - first:
+      213: -2764845761014402010
+    second: xmastoytiles_2_3
+  - first:
+      213: 1949547239367926482
+    second: xmastoytiles_2_4
+  - first:
+      213: -1501534664106085746
+    second: xmastoytiles_2_5
+  - first:
+      213: -4974461140155233965
+    second: xmastoytiles_2_6
+  - first:
+      213: -8045869141594459570
+    second: xmastoytiles_2_7
+  - first:
+      213: -374816350387307185
+    second: xmastoytiles_2_8
+  - first:
+      213: 4067905343080568544
+    second: xmastoytiles_2_9
+  - first:
+      213: 1597042146952664432
+    second: xmastoytiles_2_10
+  - first:
+      213: 4913824887610156119
+    second: xmastoytiles_2_11
+  - first:
+      213: 6140067642427142955
+    second: xmastoytiles_2_12
+  - first:
+      213: -3867823582017652206
+    second: xmastoytiles_2_13
+  - first:
+      213: -8606461761570254530
+    second: xmastoytiles_2_14
+  - first:
+      213: 1287265255261498289
+    second: xmastoytiles_2_15
+  - first:
+      213: -8044251147018689401
+    second: xmastoytiles_2_16
+  - first:
+      213: 4841105041549343139
+    second: xmastoytiles_2_17
+  - first:
+      213: -7398745501083620764
+    second: xmastoytiles_2_18
+  - first:
+      213: -5560839200166280622
+    second: xmastoytiles_2_19
+  - first:
+      213: -8635413372774146451
+    second: xmastoytiles_2_20
+  - first:
+      213: -992575241660646915
+    second: xmastoytiles_2_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: xmastoytiles_2_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 193
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70610eff47547300800000000000000
+      internalID: 248919880487755901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xmastoytiles_2_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 159
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210455600c486aca0800000000000000
+      internalID: -6005967092777140206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xmastoytiles_2_2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 159
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2e12991e3aea9b0800000000000000
+      internalID: -5066932341413125411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xmastoytiles_2_3
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 193
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624fdfbdd6b41a9d0800000000000000
+      internalID: -2764845761014402010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xmastoytiles_2_4
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 161
+        width: 24
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d26e5392ee2e0b10800000000000000
+      internalID: 1949547239367926482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xmastoytiles_2_5
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 161
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e827500bd2a792be0800000000000000
+      internalID: -1501534664106085746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xmastoytiles_2_6
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 193
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3590018e2f927fab0800000000000000
+      internalID: -4974461140155233965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xmastoytiles_2_7
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 193
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e423cf105a4575090800000000000000
+      internalID: -8045869141594459570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xmastoytiles_2_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 163
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4df723e3826ccaf0800000000000000
+      internalID: -374816350387307185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xmastoytiles_2_9
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 161
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e61b3a5b5a147830800000000000000
+      internalID: 4067905343080568544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xmastoytiles_2_10
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 161
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075d0740f55d92610800000000000000
+      internalID: 1597042146952664432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xmastoytiles_2_11
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 131
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7542a7263b9613440800000000000000
+      internalID: 4913824887610156119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xmastoytiles_2_12
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 101
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b237db34df6e53550800000000000000
+      internalID: 6140067642427142955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xmastoytiles_2_13
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 105
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a75fbd1fab25ac0800000000000000
+      internalID: -3867823582017652206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xmastoytiles_2_14
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 105
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e315f9870a4bf8880800000000000000
+      internalID: -8606461761570254530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xmastoytiles_2_15
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 97
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bb609fede84dd110800000000000000
+      internalID: 1287265255261498289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xmastoytiles_2_16
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 63
+        width: 62
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7842ce9b3341d5090800000000000000
+      internalID: -8044251147018689401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xmastoytiles_2_17
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 63
+        width: 62
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9b6e1d26f0f2340800000000000000
+      internalID: 4841105041549343139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xmastoytiles_2_18
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 65
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a2460ca20625990800000000000000
+      internalID: -7398745501083620764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xmastoytiles_2_19
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 3
+        width: 76
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2528505c53ee3d2b0800000000000000
+      internalID: -5560839200166280622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xmastoytiles_2_20
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 3
+        width: 76
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e93233a49d82880800000000000000
+      internalID: -8635413372774146451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xmastoytiles_2_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 5
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df938fb931aa932f0800000000000000
+      internalID: -992575241660646915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      xmastoytiles_2_0: 248919880487755901
+      xmastoytiles_2_1: -6005967092777140206
+      xmastoytiles_2_10: 1597042146952664432
+      xmastoytiles_2_11: 4913824887610156119
+      xmastoytiles_2_12: 6140067642427142955
+      xmastoytiles_2_13: -3867823582017652206
+      xmastoytiles_2_14: -8606461761570254530
+      xmastoytiles_2_15: 1287265255261498289
+      xmastoytiles_2_16: -8044251147018689401
+      xmastoytiles_2_17: 4841105041549343139
+      xmastoytiles_2_18: -7398745501083620764
+      xmastoytiles_2_19: -5560839200166280622
+      xmastoytiles_2_2: -5066932341413125411
+      xmastoytiles_2_20: -8635413372774146451
+      xmastoytiles_2_21: -992575241660646915
+      xmastoytiles_2_3: -2764845761014402010
+      xmastoytiles_2_4: 1949547239367926482
+      xmastoytiles_2_5: -1501534664106085746
+      xmastoytiles_2_6: -4974461140155233965
+      xmastoytiles_2_7: -8045869141594459570
+      xmastoytiles_2_8: -374816350387307185
+      xmastoytiles_2_9: 4067905343080568544
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

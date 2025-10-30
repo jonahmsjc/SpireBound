@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 3b2a4c0d3bbe2af459a90a7a210740ad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1161842776097270079
+    second: christmaspresents_2_0
+  - first:
+      213: -8012276122299485767
+    second: christmaspresents_2_1
+  - first:
+      213: -4324875172832552475
+    second: christmaspresents_2_2
+  - first:
+      213: -3755766728994615570
+    second: christmaspresents_2_3
+  - first:
+      213: 6344586449345577274
+    second: christmaspresents_2_4
+  - first:
+      213: 4077271728850891031
+    second: christmaspresents_2_5
+  - first:
+      213: -6307765801351337027
+    second: christmaspresents_2_6
+  - first:
+      213: 4043013938323002847
+    second: christmaspresents_2_7
+  - first:
+      213: 5361564254267578127
+    second: christmaspresents_2_8
+  - first:
+      213: 6901281240675123043
+    second: christmaspresents_2_9
+  - first:
+      213: 2815116120366580619
+    second: christmaspresents_2_10
+  - first:
+      213: 426883463208445960
+    second: christmaspresents_2_11
+  - first:
+      213: 4879691061448533253
+    second: christmaspresents_2_12
+  - first:
+      213: -4861454108901198385
+    second: christmaspresents_2_13
+  - first:
+      213: -3616154891771651539
+    second: christmaspresents_2_14
+  - first:
+      213: -9058291983524219735
+    second: christmaspresents_2_15
+  - first:
+      213: 3478888682054932496
+    second: christmaspresents_2_16
+  - first:
+      213: 6757238833831808481
+    second: christmaspresents_2_17
+  - first:
+      213: -3780238721621908006
+    second: christmaspresents_2_18
+  - first:
+      213: -6907923089253938378
+    second: christmaspresents_2_19
+  - first:
+      213: -8144913159624657695
+    second: christmaspresents_2_20
+  - first:
+      213: -613198733672917779
+    second: christmaspresents_2_21
+  - first:
+      213: 2176139578580720927
+    second: christmaspresents_2_22
+  - first:
+      213: -7595669829510862651
+    second: christmaspresents_2_23
+  - first:
+      213: -7497295145167626347
+    second: christmaspresents_2_24
+  - first:
+      213: 2581478519802642733
+    second: christmaspresents_2_25
+  - first:
+      213: -2345415091887417070
+    second: christmaspresents_2_26
+  - first:
+      213: -139700432732342121
+    second: christmaspresents_2_27
+  - first:
+      213: 3337512984826246760
+    second: christmaspresents_2_28
+  - first:
+      213: 7937938738544234960
+    second: christmaspresents_2_29
+  - first:
+      213: -5815008749684842139
+    second: christmaspresents_2_30
+  - first:
+      213: -5589367107375835689
+    second: christmaspresents_2_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: christmaspresents_2_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 449
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c65edd962e40efe0800000000000000
+      internalID: -1161842776097270079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 449
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1beff415daec090800000000000000
+      internalID: -8012276122299485767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_2
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 449
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e9d869c1f4faf3c0800000000000000
+      internalID: -4324875172832552475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_3
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 449
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee8b031f06d0ebc0800000000000000
+      internalID: -3755766728994615570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_4
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 385
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a310008b2cf7c0850800000000000000
+      internalID: 6344586449345577274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_5
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 385
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71176eaf801659830800000000000000
+      internalID: 4077271728850891031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_6
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 385
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbba8147c605678a0800000000000000
+      internalID: -6307765801351337027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_7
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 385
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd512bf81cbab1830800000000000000
+      internalID: 4043013938323002847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_8
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 321
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f071d00584a186a40800000000000000
+      internalID: 5361564254267578127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_9
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 321
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ff18d49b646cf50800000000000000
+      internalID: 6901281240675123043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_10
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 321
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b830de3423d411720800000000000000
+      internalID: 2815116120366580619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_11
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 321
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80827018f389ce500800000000000000
+      internalID: 426883463208445960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_12
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 255
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505e94baa2528b340800000000000000
+      internalID: 4879691061448533253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_13
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 255
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc5b41bbe35a88cb0800000000000000
+      internalID: -4861454108901198385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_14
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 255
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ad82ff846d0ddc0800000000000000
+      internalID: -3616154891771651539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_15
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 255
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a435421f6b7a4280800000000000000
+      internalID: -9058291983524219735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_16
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 193
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018d20b03de774030800000000000000
+      internalID: 3478888682054932496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_17
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 193
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed05010be886cd50800000000000000
+      internalID: 6757238833831808481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_18
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 193
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5ac8749e4e98bc0800000000000000
+      internalID: -3780238721621908006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_19
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 193
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63bcc41dc802220a0800000000000000
+      internalID: -6907923089253938378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_20
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 129
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4fa2a82a477fe80800000000000000
+      internalID: -8144913159624657695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_21
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 129
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de4d4b6200b7d77f0800000000000000
+      internalID: -613198733672917779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_22
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 129
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1dd8f2ca63333e10800000000000000
+      internalID: 2176139578580720927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_23
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 129
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c86adc9882c69690800000000000000
+      internalID: -7595669829510862651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_24
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 65
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59fd500b9c144f790800000000000000
+      internalID: -7497295145167626347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_25
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 65
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d214328590143d320800000000000000
+      internalID: 2581478519802642733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_26
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 65
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219d5358669637fd0800000000000000
+      internalID: -2345415091887417070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_27
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 65
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7983504523faf0ef0800000000000000
+      internalID: -139700432732342121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_28
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86672d5706a315e20800000000000000
+      internalID: 3337512984826246760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_29
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1ddb7c939392e60800000000000000
+      internalID: 7937938738544234960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_30
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 0
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5612f35f950fc4fa0800000000000000
+      internalID: -5815008749684842139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: christmaspresents_2_31
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 0
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d55c95ca349e62b0800000000000000
+      internalID: -5589367107375835689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      christmaspresents_2_0: -1161842776097270079
+      christmaspresents_2_1: -8012276122299485767
+      christmaspresents_2_10: 2815116120366580619
+      christmaspresents_2_11: 426883463208445960
+      christmaspresents_2_12: 4879691061448533253
+      christmaspresents_2_13: -4861454108901198385
+      christmaspresents_2_14: -3616154891771651539
+      christmaspresents_2_15: -9058291983524219735
+      christmaspresents_2_16: 3478888682054932496
+      christmaspresents_2_17: 6757238833831808481
+      christmaspresents_2_18: -3780238721621908006
+      christmaspresents_2_19: -6907923089253938378
+      christmaspresents_2_2: -4324875172832552475
+      christmaspresents_2_20: -8144913159624657695
+      christmaspresents_2_21: -613198733672917779
+      christmaspresents_2_22: 2176139578580720927
+      christmaspresents_2_23: -7595669829510862651
+      christmaspresents_2_24: -7497295145167626347
+      christmaspresents_2_25: 2581478519802642733
+      christmaspresents_2_26: -2345415091887417070
+      christmaspresents_2_27: -139700432732342121
+      christmaspresents_2_28: 3337512984826246760
+      christmaspresents_2_29: 7937938738544234960
+      christmaspresents_2_3: -3755766728994615570
+      christmaspresents_2_30: -5815008749684842139
+      christmaspresents_2_31: -5589367107375835689
+      christmaspresents_2_4: 6344586449345577274
+      christmaspresents_2_5: 4077271728850891031
+      christmaspresents_2_6: -6307765801351337027
+      christmaspresents_2_7: 4043013938323002847
+      christmaspresents_2_8: 5361564254267578127
+      christmaspresents_2_9: 6901281240675123043
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

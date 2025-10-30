@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: b7943a3bf2fd24e468135c12e906af73
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3354735494580016959
+    second: rudolph_adultb_2_0
+  - first:
+      213: 4602687760381020367
+    second: rudolph_adultb_2_1
+  - first:
+      213: -7625337791255144541
+    second: rudolph_adultb_2_2
+  - first:
+      213: 2848950251471920150
+    second: rudolph_adultb_2_3
+  - first:
+      213: 7138891679371531694
+    second: rudolph_adultb_2_4
+  - first:
+      213: -9095812520438084949
+    second: rudolph_adultb_2_5
+  - first:
+      213: 5264578228132094402
+    second: rudolph_adultb_2_6
+  - first:
+      213: 1266204627087270192
+    second: rudolph_adultb_2_7
+  - first:
+      213: -375587359163936488
+    second: rudolph_adultb_2_8
+  - first:
+      213: -6504112008592545408
+    second: rudolph_adultb_2_9
+  - first:
+      213: -7426015864209108674
+    second: rudolph_adultb_2_10
+  - first:
+      213: -6856983868335901556
+    second: rudolph_adultb_2_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rudolph_adultb_2_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 319
+        width: 36
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8e92287d59171d0800000000000000
+      internalID: -3354735494580016959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolph_adultb_2_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 319
+        width: 36
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc88c89c12800ef30800000000000000
+      internalID: 4602687760381020367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolph_adultb_2_2
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 319
+        width: 36
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a710ebfdab5d2690800000000000000
+      internalID: -7625337791255144541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolph_adultb_2_3
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 213
+        width: 82
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c5eb9c821898720800000000000000
+      internalID: 2848950251471920150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolph_adultb_2_4
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 213
+        width: 82
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea59eeea820721360800000000000000
+      internalID: 7138891679371531694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolph_adultb_2_5
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 213
+        width: 82
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baaccbf44be25c180800000000000000
+      internalID: -9095812520438084949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolph_adultb_2_6
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 107
+        width: 82
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1a11c610a8f0940800000000000000
+      internalID: 5264578228132094402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolph_adultb_2_7
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 107
+        width: 82
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0312e725666729110800000000000000
+      internalID: 1266204627087270192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolph_adultb_2_8
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 107
+        width: 82
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81118ea6945a9caf0800000000000000
+      internalID: -375587359163936488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolph_adultb_2_9
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1
+        width: 36
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0892d74a690ccb5a0800000000000000
+      internalID: -6504112008592545408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolph_adultb_2_10
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1
+        width: 36
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31966d8aed71f890800000000000000
+      internalID: -7426015864209108674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolph_adultb_2_11
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1
+        width: 36
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c843149608917d0a0800000000000000
+      internalID: -6856983868335901556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rudolph_adultb_2_0: -3354735494580016959
+      rudolph_adultb_2_1: 4602687760381020367
+      rudolph_adultb_2_10: -7426015864209108674
+      rudolph_adultb_2_11: -6856983868335901556
+      rudolph_adultb_2_2: -7625337791255144541
+      rudolph_adultb_2_3: 2848950251471920150
+      rudolph_adultb_2_4: 7138891679371531694
+      rudolph_adultb_2_5: -9095812520438084949
+      rudolph_adultb_2_6: 5264578228132094402
+      rudolph_adultb_2_7: 1266204627087270192
+      rudolph_adultb_2_8: -375587359163936488
+      rudolph_adultb_2_9: -6504112008592545408
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

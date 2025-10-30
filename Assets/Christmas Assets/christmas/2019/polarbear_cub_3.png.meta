@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: f1b892eb1eb521549b1b23458cd785db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6878200328739767255
+    second: polarbear_cub_3_0
+  - first:
+      213: 816781457361295178
+    second: polarbear_cub_3_1
+  - first:
+      213: -2131418493962693671
+    second: polarbear_cub_3_2
+  - first:
+      213: 298584637029663729
+    second: polarbear_cub_3_3
+  - first:
+      213: 7101936717804484990
+    second: polarbear_cub_3_4
+  - first:
+      213: -510987079243170811
+    second: polarbear_cub_3_5
+  - first:
+      213: 6686852021846056387
+    second: polarbear_cub_3_6
+  - first:
+      213: -5334520881021741211
+    second: polarbear_cub_3_7
+  - first:
+      213: 5421275702933260729
+    second: polarbear_cub_3_8
+  - first:
+      213: 383875694055971222
+    second: polarbear_cub_3_9
+  - first:
+      213: 2199719264139116066
+    second: polarbear_cub_3_10
+  - first:
+      213: 2376087478127273745
+    second: polarbear_cub_3_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: polarbear_cub_3_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 326
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d34288b1c6447f50800000000000000
+      internalID: 6878200328739767255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polarbear_cub_3_1
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 326
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a475521786ac55b00800000000000000
+      internalID: 816781457361295178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polarbear_cub_3_2
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 326
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3d7a72c2eab62e0800000000000000
+      internalID: -2131418493962693671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polarbear_cub_3_3
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 218
+        width: 80
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3ca893529c42400800000000000000
+      internalID: 298584637029663729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polarbear_cub_3_4
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 218
+        width: 80
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e793a0231d52f8260800000000000000
+      internalID: 7101936717804484990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polarbear_cub_3_5
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 218
+        width: 80
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c75e075fb98e8f0800000000000000
+      internalID: -510987079243170811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polarbear_cub_3_6
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 110
+        width: 80
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd9cb34c787ccc50800000000000000
+      internalID: 6686852021846056387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polarbear_cub_3_7
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 110
+        width: 80
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5679bcfa589f7f5b0800000000000000
+      internalID: -5334520881021741211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polarbear_cub_3_8
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 110
+        width: 80
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b90bc6578d3c3b40800000000000000
+      internalID: 5421275702933260729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polarbear_cub_3_9
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 699dc1ee8ecc35500800000000000000
+      internalID: 383875694055971222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polarbear_cub_3_10
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 2
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e78902409f68e10800000000000000
+      internalID: 2199719264139116066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polarbear_cub_3_11
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 2
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117a709e8fe89f020800000000000000
+      internalID: 2376087478127273745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      polarbear_cub_3_0: 6878200328739767255
+      polarbear_cub_3_1: 816781457361295178
+      polarbear_cub_3_10: 2199719264139116066
+      polarbear_cub_3_11: 2376087478127273745
+      polarbear_cub_3_2: -2131418493962693671
+      polarbear_cub_3_3: 298584637029663729
+      polarbear_cub_3_4: 7101936717804484990
+      polarbear_cub_3_5: -510987079243170811
+      polarbear_cub_3_6: 6686852021846056387
+      polarbear_cub_3_7: -5334520881021741211
+      polarbear_cub_3_8: 5421275702933260729
+      polarbear_cub_3_9: 383875694055971222
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

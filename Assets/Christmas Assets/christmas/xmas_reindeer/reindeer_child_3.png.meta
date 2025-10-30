@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: be7575ce496171f4f999a24cc0e2dbf2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4290936284234129156
+    second: reindeer_child_3_0
+  - first:
+      213: -1362838150210884646
+    second: reindeer_child_3_1
+  - first:
+      213: -5647443760295429160
+    second: reindeer_child_3_2
+  - first:
+      213: -1950246707124570925
+    second: reindeer_child_3_3
+  - first:
+      213: 4248549233235411016
+    second: reindeer_child_3_4
+  - first:
+      213: -7469198164303994654
+    second: reindeer_child_3_5
+  - first:
+      213: 3943362720618534859
+    second: reindeer_child_3_6
+  - first:
+      213: -7447151889704607829
+    second: reindeer_child_3_7
+  - first:
+      213: -3137710607753690167
+    second: reindeer_child_3_8
+  - first:
+      213: 2394862788219124803
+    second: reindeer_child_3_9
+  - first:
+      213: 1545487411279896233
+    second: reindeer_child_3_10
+  - first:
+      213: -2016935167701853173
+    second: reindeer_child_3_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: reindeer_child_3_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 482
+        width: 53
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0e3601f288374c0800000000000000
+      internalID: -4290936284234129156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reindeer_child_3_1
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 482
+        width: 53
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb645a4ce9361de0800000000000000
+      internalID: -1362838150210884646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reindeer_child_3_2
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 482
+        width: 53
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db389a42df30a1b0800000000000000
+      internalID: -5647443760295429160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reindeer_child_3_3
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 320
+        width: 110
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4f675e3f45fe4e0800000000000000
+      internalID: -1950246707124570925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reindeer_child_3_4
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 320
+        width: 110
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84041c19401e5fa30800000000000000
+      internalID: 4248549233235411016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reindeer_child_3_5
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 320
+        width: 110
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e029a3d7d3185890800000000000000
+      internalID: -7469198164303994654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reindeer_child_3_6
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 161
+        width: 110
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc75cf66083a9b630800000000000000
+      internalID: 3943362720618534859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reindeer_child_3_7
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 161
+        width: 110
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf17c120d666a890800000000000000
+      internalID: -7447151889704607829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reindeer_child_3_8
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 161
+        width: 110
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c3cdd893dc9474d0800000000000000
+      internalID: -3137710607753690167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reindeer_child_3_9
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 5
+        width: 53
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c3a9174034c3120800000000000000
+      internalID: 2394862788219124803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reindeer_child_3_10
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 5
+        width: 53
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae1d2abc9ca27510800000000000000
+      internalID: 1545487411279896233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reindeer_child_3_11
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 5
+        width: 53
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c5322b6286204e0800000000000000
+      internalID: -2016935167701853173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      reindeer_child_3_0: -4290936284234129156
+      reindeer_child_3_1: -1362838150210884646
+      reindeer_child_3_10: 1545487411279896233
+      reindeer_child_3_11: -2016935167701853173
+      reindeer_child_3_2: -5647443760295429160
+      reindeer_child_3_3: -1950246707124570925
+      reindeer_child_3_4: 4248549233235411016
+      reindeer_child_3_5: -7469198164303994654
+      reindeer_child_3_6: 3943362720618534859
+      reindeer_child_3_7: -7447151889704607829
+      reindeer_child_3_8: -3137710607753690167
+      reindeer_child_3_9: 2394862788219124803
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

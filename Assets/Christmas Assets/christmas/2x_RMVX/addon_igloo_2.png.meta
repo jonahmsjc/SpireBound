@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 2d3412e47a0039a41b5d0530af2b1659
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5050291748742575970
+    second: addon_igloo_2_0
+  - first:
+      213: 5400406021811808177
+    second: addon_igloo_2_1
+  - first:
+      213: -9102504606237399863
+    second: addon_igloo_2_2
+  - first:
+      213: 4682331160477672506
+    second: addon_igloo_2_3
+  - first:
+      213: -974593543467608315
+    second: addon_igloo_2_4
+  - first:
+      213: 5308175561464852284
+    second: addon_igloo_2_5
+  - first:
+      213: 3270284760931130508
+    second: addon_igloo_2_6
+  - first:
+      213: -5536697500334107077
+    second: addon_igloo_2_7
+  - first:
+      213: -758708201002574501
+    second: addon_igloo_2_8
+  - first:
+      213: -4104084461200457839
+    second: addon_igloo_2_9
+  - first:
+      213: -4128794648873721687
+    second: addon_igloo_2_10
+  - first:
+      213: 7127198963341050064
+    second: addon_igloo_2_11
+  - first:
+      213: -8053434128429645758
+    second: addon_igloo_2_12
+  - first:
+      213: -2440002691844738613
+    second: addon_igloo_2_13
+  - first:
+      213: 6183960697508608618
+    second: addon_igloo_2_14
+  - first:
+      213: -4616221880387088057
+    second: addon_igloo_2_15
+  - first:
+      213: -8476818077956368911
+    second: addon_igloo_2_16
+  - first:
+      213: 7443164589641061004
+    second: addon_igloo_2_17
+  - first:
+      213: 4090360843830644678
+    second: addon_igloo_2_18
+  - first:
+      213: 543079010187017348
+    second: addon_igloo_2_19
+  - first:
+      213: 4490498682237721909
+    second: addon_igloo_2_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: addon_igloo_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 161
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98cc108962c9e9b0800000000000000
+      internalID: -5050291748742575970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addon_igloo_2_1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 169
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b729fc0aa812fa40800000000000000
+      internalID: 5400406021811808177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addon_igloo_2_2
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 167
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4ecdaa9486da180800000000000000
+      internalID: -9102504606237399863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addon_igloo_2_3
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 161
+        width: 44
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34a305e16bfaf040800000000000000
+      internalID: 4682331160477672506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addon_igloo_2_4
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 113
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5075939f55c8972f0800000000000000
+      internalID: -974593543467608315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addon_igloo_2_5
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 131
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3fa58a9c8d6aa940800000000000000
+      internalID: 5308175561464852284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addon_igloo_2_6
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 137
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c5ca1d9a2626d20800000000000000
+      internalID: 3270284760931130508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addon_igloo_2_7
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 143
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b36dac745f2b923b0800000000000000
+      internalID: -5536697500334107077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addon_igloo_2_8
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 99
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5dd01739e68875f0800000000000000
+      internalID: -758708201002574501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addon_igloo_2_9
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 95
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f32f94dec5b07c0800000000000000
+      internalID: -4104084461200457839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addon_igloo_2_10
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 101
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a02953642393b6c0800000000000000
+      internalID: -4128794648873721687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addon_igloo_2_11
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 73
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0c97512b5e8e260800000000000000
+      internalID: 7127198963341050064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addon_igloo_2_12
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 71
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24081f044547c3090800000000000000
+      internalID: -8053434128429645758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addon_igloo_2_13
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 65
+        width: 44
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1f89dba7e532ed0800000000000000
+      internalID: -2440002691844738613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addon_igloo_2_14
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 17
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a3af78d77d1d550800000000000000
+      internalID: 6183960697508608618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addon_igloo_2_15
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 35
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 741542758a2efefb0800000000000000
+      internalID: -4616221880387088057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addon_igloo_2_16
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 41
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f51dc5ceda4c5a80800000000000000
+      internalID: -8476818077956368911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addon_igloo_2_17
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 47
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82525a32ce6b4760800000000000000
+      internalID: 7443164589641061004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addon_igloo_2_18
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 3
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf41bb0481e3c830800000000000000
+      internalID: 4090360843830644678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addon_igloo_2_19
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 0
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48cfa2f7b77698700800000000000000
+      internalID: 543079010187017348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addon_igloo_2_20
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 5
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d932382c4715e30800000000000000
+      internalID: 4490498682237721909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      addon_igloo_2_0: -5050291748742575970
+      addon_igloo_2_1: 5400406021811808177
+      addon_igloo_2_10: -4128794648873721687
+      addon_igloo_2_11: 7127198963341050064
+      addon_igloo_2_12: -8053434128429645758
+      addon_igloo_2_13: -2440002691844738613
+      addon_igloo_2_14: 6183960697508608618
+      addon_igloo_2_15: -4616221880387088057
+      addon_igloo_2_16: -8476818077956368911
+      addon_igloo_2_17: 7443164589641061004
+      addon_igloo_2_18: 4090360843830644678
+      addon_igloo_2_19: 543079010187017348
+      addon_igloo_2_2: -9102504606237399863
+      addon_igloo_2_20: 4490498682237721909
+      addon_igloo_2_3: 4682331160477672506
+      addon_igloo_2_4: -974593543467608315
+      addon_igloo_2_5: 5308175561464852284
+      addon_igloo_2_6: 3270284760931130508
+      addon_igloo_2_7: -5536697500334107077
+      addon_igloo_2_8: -758708201002574501
+      addon_igloo_2_9: -4104084461200457839
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
