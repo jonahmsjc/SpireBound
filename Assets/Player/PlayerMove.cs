@@ -1,121 +1,61 @@
-using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerController2D : MonoBehaviour
+public class PlayerMove : MonoBehaviour
 {
-    [Header("Movement Settings")]
-    public float moveSpeed = 5f;
-    public float slideSpeed = 10f;
-    public float slideDuration = 0.3f;
-    public float slideCooldown = 1f;
+    [SerializeField] private float moveSpeed = 5f;
+    private Rigidbody2D rb;
+    private Vector2 movementInput;
+    private SpriteRenderer spriteRenderer;
+    private Animator animator;
 
-    [Header("Attack Settings")]
-    public float attackCooldown = 0.5f;
-
-    [Header("Components")]
-    public Rigidbody2D rb;
-    public Animator animator;
-    public SpriteRenderer spriteRenderer;
-
-    private InputAction moveAction;
-    private InputAction attackAction;
-    private InputAction slideAction;
-
-    private Vector2 moveValue;
-    private bool isSliding = false;
-    private bool canSlide = true;
-    private bool canAttack = true;
-
-    private void OnEnable()
+    void Start()
     {
-        // Get actions from Input System
-        moveAction = InputSystem.actions.FindAction("Move");
-        attackAction = InputSystem.actions.FindAction("Attack");
-        slideAction = InputSystem.actions.FindAction("Slide");
-
-        attackAction.performed += ctx => TryAttack();
-        slideAction.performed += ctx => TrySlide();
+        rb = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
 
-    private void OnDisable()
+    void Update()
     {
-        attackAction.performed -= ctx => TryAttack();
-        slideAction.performed -= ctx => TrySlide();
+        Vector2 input = Vector2.zero;
+
+        // Get movement input using new Input System
+        if (Keyboard.current != null)
+        {
+            if (Keyboard.current.wKey.isPressed) input.y += 1;
+            if (Keyboard.current.sKey.isPressed) input.y -= 1;
+            if (Keyboard.current.aKey.isPressed)
+            {
+                input.x -= 1;
+                spriteRenderer.flipX = true; // face left
+            }
+            if (Keyboard.current.dKey.isPressed)
+            {
+                input.x += 1;
+                spriteRenderer.flipX = false; // face right
+            }
+
+            // Trigger attack (optional)
+            if (Keyboard.current.spaceKey.wasPressedThisFrame)
+                animator.SetTrigger("Attack");
+
+            // Trigger slide (optional)
+            if (Keyboard.current.leftShiftKey.wasPressedThisFrame)
+                animator.SetTrigger("Slide");
+        }
+
+        movementInput = input.normalized;
+
+        // Set Animator bools based on movement
+        bool isWalking = movementInput.x != 0 || movementInput.y != 0;
+        animator.SetBool("isWalking", isWalking);
     }
 
-    private void Update()
+    void FixedUpdate()
     {
-        moveValue = moveAction.ReadValue<Vector2>();
-        HandleAnimations();
+        rb.linearVelocity = movementInput * moveSpeed;
     }
 
-    private void FixedUpdate()
-    {
-        if (!isSliding)
-            MovePlayer();
-    }
 
-    private void MovePlayer()
-    {
-        Vector2 moveDir = new Vector2(moveValue.x, 0);
-        Vector2 newPosition = rb.position + moveDir * moveSpeed * Time.fixedDeltaTime;
-        rb.MovePosition(newPosition);
-
-        // Flip sprite when changing direction
-        if (moveDir.x != 0)
-            spriteRenderer.flipX = moveDir.x < 0;
-    }
-
-    private void HandleAnimations()
-    {
-        bool isMoving = Mathf.Abs(moveValue.x) > 0.1f;
-        animator.SetBool("isWalking", isMoving);
-        animator.SetBool("isSliding", isSliding);
-    }
-
-    private void TryAttack()
-    {
-        if (!canAttack) return;
-        StartCoroutine(AttackCoroutine());
-    }
-
-    private IEnumerator AttackCoroutine()
-    {
-        canAttack = false;
-        animator.SetTrigger("Attack");
-        // Optional: Add logic here to detect hits (e.g. enable hitbox)
-
-        yield return new WaitForSeconds(attackCooldown);
-        canAttack = true;
-    }
-
-    private void TrySlide()
-    {
-        if (!canSlide || isSliding) return;
-        StartCoroutine(SlideCoroutine());
-    }
-
-    private IEnumerator SlideCoroutine()
-    {
-        canSlide = false;
-        isSliding = true;
-
-        animator.SetTrigger("Slide");
-
-        float originalGravity = rb.gravityScale;
-        rb.gravityScale = 0f;
-
-        Vector2 slideDir = new Vector2(spriteRenderer.flipX ? -1 : 1, 0);
-        rb.linearVelocity = slideDir * slideSpeed;
-
-        yield return new WaitForSeconds(slideDuration);
-
-        rb.linearVelocity = Vector2.zero;
-        rb.gravityScale = originalGravity;
-        isSliding = false;
-
-        yield return new WaitForSeconds(slideCooldown);
-        canSlide = true;
-    }
 }
