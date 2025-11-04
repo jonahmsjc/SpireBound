@@ -20,34 +20,32 @@ public class PlayerMove : MonoBehaviour
     {
         Vector2 input = Vector2.zero;
 
-        // Get movement input using new Input System
         if (Keyboard.current != null)
         {
+            // Movement input
             if (Keyboard.current.wKey.isPressed) input.y += 1;
             if (Keyboard.current.sKey.isPressed) input.y -= 1;
             if (Keyboard.current.aKey.isPressed)
             {
                 input.x -= 1;
-                spriteRenderer.flipX = true; // face left
+                spriteRenderer.flipX = true;
             }
             if (Keyboard.current.dKey.isPressed)
             {
                 input.x += 1;
-                spriteRenderer.flipX = false; // face right
+                spriteRenderer.flipX = false;
             }
 
-            // Trigger attack (optional)
+            // Attack input
             if (Keyboard.current.spaceKey.wasPressedThisFrame)
+            {
                 animator.SetTrigger("Attack");
-
-            // Trigger slide (optional)
-            if (Keyboard.current.leftShiftKey.wasPressedThisFrame)
-                animator.SetTrigger("Slide");
+            }
         }
 
         movementInput = input.normalized;
 
-        // Set Animator bools based on movement
+        // Update walking animation
         bool isWalking = movementInput.x != 0 || movementInput.y != 0;
         animator.SetBool("isWalking", isWalking);
     }
@@ -56,6 +54,4 @@ public class PlayerMove : MonoBehaviour
     {
         rb.linearVelocity = movementInput * moveSpeed;
     }
-
-
 }
