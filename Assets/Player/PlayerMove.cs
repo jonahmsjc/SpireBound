@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -13,6 +14,9 @@ public class PlayerMove : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Animator animator;
     private bool isAttacking = false;
+
+    //  Event triggered when the player attacks
+    public static event Action OnPlayerAttack;
 
     void Start()
     {
@@ -47,6 +51,9 @@ public class PlayerMove : MonoBehaviour
         {
             animator.SetTrigger("Attack");
             FireProjectile();
+
+            // Trigger global event for FX system
+            OnPlayerAttack?.Invoke();
         }
 
         movementInput = input.normalized;
