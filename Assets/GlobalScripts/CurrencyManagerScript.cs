@@ -14,14 +14,14 @@ public class CurrencyManagerScript : MonoBehaviour
     public int Gold
     {
         get;
-        private set;
+        set;
     } = 0;
 
     [field: SerializeField, Min(0)]
     public int Exp
     {
         get;
-        private set;
+        set;
     } = 0;
 
     [field: SerializeField, Min(0)]

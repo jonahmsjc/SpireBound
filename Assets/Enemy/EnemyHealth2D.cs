@@ -24,6 +24,9 @@ public class EnemyHealth2D : MonoBehaviour
     private void Die()
     {
         Debug.Log($"{gameObject.name} died!");
+        //TODO : change the next 2 lines to use a settable local variable.
+        CurrencyManagerScript.Instance.Gold += 10;
+        CurrencyManagerScript.Instance.Exp += 10;
         Destroy(gameObject);
     }
 }
