@@ -4,10 +4,15 @@ using UnityEngine.InputSystem;
 public class PlayerMove : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] private GameObject projectilePrefab;
+    [SerializeField] private Transform firePoint; // Where projectile spawns
+    [SerializeField] private float projectileOffset = 0.5f; // how far in front to spawn
+
     private Rigidbody2D rb;
     private Vector2 movementInput;
     private SpriteRenderer spriteRenderer;
     private Animator animator;
+    private bool isAttacking = false;
 
     void Start()
     {
@@ -20,7 +25,7 @@ public class PlayerMove : MonoBehaviour
     {
         Vector2 input = Vector2.zero;
 
-        if (Keyboard.current != null)
+        if (!isAttacking && Keyboard.current != null)
         {
             // Movement input
             if (Keyboard.current.wKey.isPressed) input.y += 1;
@@ -35,23 +40,39 @@ public class PlayerMove : MonoBehaviour
                 input.x += 1;
                 spriteRenderer.flipX = false;
             }
+        }
 
-            // Attack input
-            if (Keyboard.current.spaceKey.wasPressedThisFrame)
-            {
-                animator.SetTrigger("Attack");
-            }
+        // Attack input
+        if (Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame && !isAttacking)
+        {
+            animator.SetTrigger("Attack");
+            FireProjectile();
         }
 
         movementInput = input.normalized;
-
-        // Update walking animation
-        bool isWalking = movementInput.x != 0 || movementInput.y != 0;
-        animator.SetBool("isWalking", isWalking);
+        animator.SetBool("isWalking", movementInput != Vector2.zero);
     }
 
     void FixedUpdate()
     {
-        rb.linearVelocity = movementInput * moveSpeed;
+        if (!isAttacking)
+            rb.linearVelocity = movementInput * moveSpeed;
+        else
+            rb.linearVelocity = Vector2.zero;
+    }
+
+    private void FireProjectile()
+    {
+        // Get direction based on facing
+        Vector2 direction = spriteRenderer.flipX ? Vector2.left : Vector2.right;
+
+        // Calculate spawn position slightly in front of the player
+        Vector3 spawnPos = transform.position + (Vector3)(direction * projectileOffset);
+
+        // Instantiate the projectile
+        GameObject projectile = Instantiate(projectilePrefab, spawnPos, Quaternion.identity);
+
+        // Set direction for projectile
+        projectile.GetComponent<Projectile>().SetDirection(direction);
     }
 }

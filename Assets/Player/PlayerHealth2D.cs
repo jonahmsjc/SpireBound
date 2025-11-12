@@ -1,8 +1,9 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth2D : MonoBehaviour
 {
-    public static bool playerIsDead = false;   // <-- ADD THIS
+    public static bool playerIsDead = false;   
 
     public int maxHealth = 5;
     private int currentHealth;
@@ -28,7 +29,7 @@ public class PlayerHealth2D : MonoBehaviour
     {
         Debug.Log("Player Died!");
         playerIsDead = true;                   // <-- SET DEAD FLAG
-        // Any game over UI etc can be added here
+        SceneManager.LoadScene("Death Scene");
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7494156019341751757}
   - component: {fileID: 9164963832924473776}
   - component: {fileID: 5694683227152807233}
+  - component: {fileID: 7738415327945111572}
   m_Layer: 0
   m_Name: elfa_1_0
   m_TagString: Enemy
@@ -142,3 +143,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMoveToPlayer
   speed: 5
+--- !u!114 &7738415327945111572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4510137214806460387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f4b00a597811784b8cdb8efa087ab8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth2D
+  maxHealth: 1
