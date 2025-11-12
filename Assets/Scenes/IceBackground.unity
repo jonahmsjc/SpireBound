@@ -5524,6 +5524,26 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!1 &1458022069 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 426962635634020892, guid: 7f0d58221f265f1428392e826d94a514, type: 3}
+  m_PrefabInstance: {fileID: 2068306401}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1458022071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458022069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c889707294cd4b943bf3a0ce3d5b89bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Projectile
+  speed: 10
+  damage: 1
+  lifetime: 2
 --- !u!1 &1759522623
 GameObject:
   m_ObjectHideFlags: 0
@@ -7947,7 +7967,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 426962635634020892, guid: 7f0d58221f265f1428392e826d94a514, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1458022071}
   m_SourcePrefab: {fileID: 100100000, guid: 7f0d58221f265f1428392e826d94a514, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

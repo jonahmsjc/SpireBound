@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth2D : MonoBehaviour
 {
@@ -25,8 +26,8 @@ public class PlayerHealth2D : MonoBehaviour
     void Die()
     {
         Debug.Log("Player Died!");
-        // Add respawn / game over logic here
-        // Destroy(gameObject);
+        SceneManager.LoadScene("Death Scene"); 
+
     }
 
     // Detect trigger collisions in 2D (ex: enemy hitbox or projectile)
