@@ -5,7 +5,7 @@ public class NextLevelManager : MonoBehaviour
 {
     public void LoadNextLevel()
     {
-        int index = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(index  + 1);
+        
+        SceneManager.LoadScene("ShopScene");
     }
 }
