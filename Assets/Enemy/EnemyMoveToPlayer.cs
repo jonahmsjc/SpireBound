@@ -3,35 +3,32 @@ using UnityEngine;
 public class EnemyMoveToPlayer : MonoBehaviour
 {
     public float speed = 5f;
-    private Vector2 targetDirection;
     private Camera mainCamera;
     private EnemyPool pool;
+    private Transform player;
 
     void Awake()
     {
         mainCamera = Camera.main;
-        pool = FindObjectOfType<EnemyPool>();  // Cache pool reference
+        pool = FindObjectOfType<EnemyPool>();
     }
 
-    void OnEnable()   // Called EVERY time the enemy is reused
+    void OnEnable()
     {
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
-
-        if (player != null)
-        {
-            targetDirection = ((Vector2)player.transform.position - (Vector2)transform.position).normalized;
-        }
-        else
-        {
-            targetDirection = Vector2.zero;
-        }
+        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+        if (playerObj != null)
+            player = playerObj.transform;
     }
 
     void Update()
     {
-        transform.position += (Vector3)targetDirection * speed * Time.deltaTime;
+        if (player != null)
+        {
+            Vector2 direction = ((Vector2)player.position - (Vector2)transform.position).normalized;
+            transform.position += (Vector3)direction * speed * Time.deltaTime;
+        }
 
-        // Destroy when off screen
+        // Off-screen check
         Vector3 screenPoint = mainCamera.WorldToViewportPoint(transform.position);
         if (screenPoint.x < -0.1f || screenPoint.x > 1.1f || screenPoint.y < -0.1f || screenPoint.y > 1.1f)
         {
