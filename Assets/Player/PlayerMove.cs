@@ -19,7 +19,7 @@ public class PlayerMove : MonoBehaviour
     private float cooldownTimer;
     private bool isDashing = false;
 
-    // 🔥 INVINCIBILITY FLAG
+    
     public bool isInvincible = false;
 
     private Rigidbody2D rb;
@@ -136,7 +136,6 @@ public class PlayerMove : MonoBehaviour
         if (animator != null)
             animator.SetTrigger("Slide");
 
-        // 🔥 INVINCIBILITY ADDED HERE
         isInvincible = true;
         Debug.Log("PLAYER IS NOW INVINCIBLE");
 
@@ -152,7 +151,6 @@ public class PlayerMove : MonoBehaviour
 
         isDashing = false;
 
-        // 🔥 END INVINCIBILITY
         isInvincible = false;
         Debug.Log("PLAYER IS NO LONGER INVINCIBLE");
 
