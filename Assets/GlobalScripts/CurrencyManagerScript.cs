@@ -25,21 +25,21 @@ public class CurrencyManagerScript : MonoBehaviour
     } = 0;
 
     [field: SerializeField, Min(0)]
-    public int Atk
+    public float Atk
     {
         get;
         private set;
-    } = 0;
+    } = 0f;
 
     [field: SerializeField, Min(0)]
-    public int Def
+    public float Def
     {
         get;
         private set;
-    } = 0;
+    } = 0f;
 
     [field: SerializeField, Min(0)]
-    public int Spd
+    public float Spd
     {
         get;
         private set;
@@ -47,17 +47,17 @@ public class CurrencyManagerScript : MonoBehaviour
 
     public void addSpd()
     {
-        Spd++;
+        Spd += 0.1f;
     }
 
     public void addDef()
     {
-        Def++;
+        Def += 0.1f;
     }
 
     public void addAtk()
     {
-        Atk++;
+        Atk += 0.1f;
     }
 
     private void Start()
