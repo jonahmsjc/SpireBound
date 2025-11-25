@@ -93,7 +93,7 @@ public class ShopManagerScript : MonoBehaviour
     public void OnClick_NextLevel()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("IceBackground");
+        SceneManager.LoadScene("Level2");
     }
 }
 
