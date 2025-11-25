@@ -8,6 +8,10 @@ public class PlayerHealth2D : MonoBehaviour
 
     void Start()
     {
+        float def = CurrencyManagerScript.Instance != null ? CurrencyManagerScript.Instance.Def : 0f;
+        int bonusHealth = Mathf.FloorToInt(def / 2f);
+        maxHealth += bonusHealth;
+
         currentHealth = maxHealth;
     }
 

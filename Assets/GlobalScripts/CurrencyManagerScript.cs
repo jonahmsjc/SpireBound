@@ -47,17 +47,17 @@ public class CurrencyManagerScript : MonoBehaviour
 
     public void addSpd()
     {
-        Spd += 0.1f;
+        Spd += 1f;
     }
 
     public void addDef()
     {
-        Def += 0.1f;
+        Def += 1f;
     }
 
     public void addAtk()
     {
-        Atk += 0.1f;
+        Atk += 1f;
     }
 
     private void Start()
@@ -72,5 +72,8 @@ public class CurrencyManagerScript : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    
+    public void EnemyDied()
+    {
+        Exp += 10;
+    }
 }

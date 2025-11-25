@@ -25,6 +25,7 @@ public class EnemyHealth2D : MonoBehaviour
     {
         Debug.Log($"{gameObject.name} died!");
         FindObjectOfType<WinScript>().EnemyDied();
+        CurrencyManagerScript.Instance.EnemyDied();
         Destroy(gameObject);
     }
 }

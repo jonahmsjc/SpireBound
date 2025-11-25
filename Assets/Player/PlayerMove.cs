@@ -9,6 +9,10 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] private GameObject projectilePrefab;
     [SerializeField] private Transform firePoint;
     [SerializeField] private float projectileOffset = 0.5f;
+    [SerializeField] private float baseFireCooldown = 0.5f;
+    private float fireCooldownTimer = 0f;
+
+    private Vector2 lastAimDirection = Vector2.right;
 
     [Header("Dash")]
     public float dashSpeed = 20f;
@@ -19,7 +23,6 @@ public class PlayerMove : MonoBehaviour
     private float cooldownTimer;
     private bool isDashing = false;
 
-    
     public bool isInvincible = false;
 
     private Rigidbody2D rb;
@@ -44,9 +47,17 @@ public class PlayerMove : MonoBehaviour
             Debug.LogWarning("PlayerMove: No SpriteRenderer found (facing won't flip).");
     }
 
+    void Start()
+    {
+        ApplySpeedStat();
+    }
+
     void Update()
     {
         Vector2 input = Vector2.zero;
+
+        if (fireCooldownTimer > 0f)
+            fireCooldownTimer -= Time.deltaTime;
 
         if (!isAttacking && Keyboard.current != null)
         {
@@ -64,11 +75,25 @@ public class PlayerMove : MonoBehaviour
             }
         }
 
-        if (Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame && !isAttacking)
+        if (Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame && !isAttacking && fireCooldownTimer <= 0f)
         {
+            Vector2 aimDir = input;
+
+            if (aimDir == Vector2.zero)
+            {
+                aimDir = (spriteRenderer != null && spriteRenderer.flipX)
+                    ? Vector2.left
+                    : Vector2.right;
+            }
+
+            lastAimDirection = aimDir;
+
             if (animator) animator.SetTrigger("Attack");
-            FireProjectile();
+            FireProjectile(aimDir);
             OnPlayerAttack?.Invoke();
+
+            float currentCooldown = GetCurrentFireCooldown();
+            fireCooldownTimer = currentCooldown;
         }
 
         movementInput = input.normalized;
@@ -87,7 +112,9 @@ public class PlayerMove : MonoBehaviour
                 Vector2 moveDir = movementInput;
                 if (moveDir == Vector2.zero)
                 {
-                    moveDir = (spriteRenderer != null && spriteRenderer.flipX) ? Vector2.left : Vector2.right;
+                    moveDir = (spriteRenderer != null && spriteRenderer.flipX)
+                        ? Vector2.left
+                        : Vector2.right;
                 }
 
                 StartCoroutine(DashRoutine(moveDir.normalized));
@@ -106,9 +133,41 @@ public class PlayerMove : MonoBehaviour
             rb.linearVelocity = Vector2.zero;
     }
 
-    private void FireProjectile()
+    private void ApplySpeedStat()
     {
-        Vector2 direction = (spriteRenderer != null && spriteRenderer.flipX) ? Vector2.left : Vector2.right;
+        if (CurrencyManagerScript.Instance == null)
+            return;
+
+        moveSpeed *= GetSpeedMultiplier();
+    }
+
+    private float GetSpeedMultiplier()
+    {
+        float spd = CurrencyManagerScript.Instance != null ? CurrencyManagerScript.Instance.Spd : 0f;
+        return 1f + (spd * 0.1f);
+    }
+
+    private float GetCurrentFireCooldown()
+    {
+        if (CurrencyManagerScript.Instance == null)
+            return baseFireCooldown;
+
+        float atk = CurrencyManagerScript.Instance.Atk;
+        float t = Mathf.Clamp01(atk / 10f);
+        return Mathf.Lerp(baseFireCooldown, 0f, t);
+    }
+
+    private void FireProjectile(Vector2 direction)
+    {
+        if (direction == Vector2.zero)
+        {
+            direction = (spriteRenderer != null && spriteRenderer.flipX)
+                        ? Vector2.left
+                        : Vector2.right;
+        }
+
+        direction = direction.normalized;
+
         Vector3 spawnPos = transform.position + (Vector3)(direction * projectileOffset);
 
         GameObject projectile = Instantiate(projectilePrefab, spawnPos, Quaternion.identity);
@@ -144,7 +203,8 @@ public class PlayerMove : MonoBehaviour
         float elapsed = 0f;
         while (elapsed < dashDuration)
         {
-            rb.linearVelocity = dashDirection * dashSpeed;
+            float finalDashSpeed = dashSpeed * GetSpeedMultiplier();
+            rb.linearVelocity = dashDirection * finalDashSpeed;
             elapsed += Time.deltaTime;
             yield return null;
         }
@@ -158,3 +218,4 @@ public class PlayerMove : MonoBehaviour
         yield break;
     }
 }
+
