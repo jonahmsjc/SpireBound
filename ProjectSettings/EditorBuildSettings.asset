@@ -18,6 +18,12 @@ EditorBuildSettings:
     path: Assets/Scenes/ShopScene.unity
     guid: 929cf8b73abcf4afdadb8d1d88fb6b77
   - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: ab4bf02283d1375428f91c26352d23b3
+  - enabled: 1
+    path: Assets/Scenes/Bossfight.unity
+    guid: ab500fc5b9a199845ad7cd45f7ad32d9
+  - enabled: 1
     path: Assets/Scenes/Death Scene.unity
     guid: 4153dc69f958cef46a733ab3219ae0f9
   - enabled: 0
