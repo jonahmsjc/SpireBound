@@ -21,6 +21,8 @@ public class EnemyHealth2D : MonoBehaviour
         }
     }
 
+
+
     private void Die()
     {
         Debug.Log($"{gameObject.name} died!");
@@ -28,4 +30,6 @@ public class EnemyHealth2D : MonoBehaviour
         CurrencyManagerScript.Instance.EnemyDied();
         Destroy(gameObject);
     }
+
+    
 }

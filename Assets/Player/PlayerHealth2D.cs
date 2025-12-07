@@ -5,6 +5,7 @@ public class PlayerHealth2D : MonoBehaviour
 {
     public int maxHealth = 5;
     private int currentHealth;
+    private PlayerMove playerMove;
 
     void Start()
     {
@@ -13,6 +14,7 @@ public class PlayerHealth2D : MonoBehaviour
         maxHealth += bonusHealth;
 
         currentHealth = maxHealth;
+        playerMove = GetComponent<PlayerMove>();
     }
 
     // Call this function whenever the player gets hit
@@ -39,6 +41,18 @@ public class PlayerHealth2D : MonoBehaviour
     {
         if (collision.CompareTag("Enemy"))
         {
+            bool dashAttackUnlocked = CurrencyManagerScript.Instance != null && CurrencyManagerScript.Instance.DashAttackUnlocked;
+
+            if (dashAttackUnlocked && playerMove != null && playerMove.isDashing)
+            {
+                EnemyHealth2D enemyHealth = collision.GetComponent<EnemyHealth2D>();
+                if (enemyHealth != null)
+                {
+                    enemyHealth.TakeDamage(1);
+                }
+                return;
+            }
+
             TakeDamage();
         }
     }

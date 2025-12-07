@@ -7,6 +7,7 @@ public class PlayerMove : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private GameObject projectilePrefab;
+    [SerializeField] private GameObject dashShield;
     [SerializeField] private Transform firePoint;
     [SerializeField] private float projectileOffset = 0.5f;
     [SerializeField] private float baseFireCooldown = 0.5f;
@@ -21,7 +22,7 @@ public class PlayerMove : MonoBehaviour
 
     private Vector2 dashDirection;
     private float cooldownTimer;
-    private bool isDashing = false;
+    public bool isDashing = false;
 
     public bool isInvincible = false;
 
@@ -38,6 +39,9 @@ public class PlayerMove : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        ApplySpeedStat();
+        if (dashShield != null) dashShield.SetActive(false);
+
 
         if (rb == null)
             Debug.LogError("PlayerMove: No Rigidbody2D found on player!");
@@ -198,6 +202,9 @@ public class PlayerMove : MonoBehaviour
         isInvincible = true;
         Debug.Log("PLAYER IS NOW INVINCIBLE");
 
+        if (dashShield != null && CurrencyManagerScript.Instance != null && CurrencyManagerScript.Instance.DashAttackUnlocked)
+            dashShield.SetActive(true);
+
         rb.linearVelocity = dashDirection * dashSpeed;
 
         float elapsed = 0f;
@@ -213,6 +220,9 @@ public class PlayerMove : MonoBehaviour
 
         isInvincible = false;
         Debug.Log("PLAYER IS NO LONGER INVINCIBLE");
+
+        if (dashShield != null)
+            dashShield.SetActive(false);
 
         Debug.Log("[PlayerMove] Dash ended.");
         yield break;

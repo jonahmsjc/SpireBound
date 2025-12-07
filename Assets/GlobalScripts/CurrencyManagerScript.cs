@@ -45,6 +45,13 @@ public class CurrencyManagerScript : MonoBehaviour
         private set;
     } = 0;
 
+    [field: SerializeField]
+    public bool DashAttackUnlocked
+    {
+        get;
+        private set;
+    } = false;
+
     public void addSpd()
     {
         Spd += 1f;
@@ -65,6 +72,11 @@ public class CurrencyManagerScript : MonoBehaviour
         
     }
 
+    public void UnlockDashAttack()
+    {
+        DashAttackUnlocked = true;
+    }
+
     void Awake()
     {
         if (Instance != null && Instance != this) { Destroy(gameObject); return; }
@@ -75,5 +87,6 @@ public class CurrencyManagerScript : MonoBehaviour
     public void EnemyDied()
     {
         Exp += 10;
+        Gold += 5;
     }
 }
