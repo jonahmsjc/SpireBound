@@ -11,6 +11,7 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] private Transform firePoint;
     [SerializeField] private float projectileOffset = 0.5f;
     [SerializeField] private float baseFireCooldown = 0.5f;
+    [SerializeField] private GameObject companionPrefab;
     private float fireCooldownTimer = 0f;
 
     private Vector2 lastAimDirection = Vector2.right;
@@ -42,7 +43,18 @@ public class PlayerMove : MonoBehaviour
         ApplySpeedStat();
         if (dashShield != null) dashShield.SetActive(false);
 
-
+        if (CurrencyManagerScript.Instance != null && CurrencyManagerScript.Instance.CompanionUnlocked)
+        {
+            if (companionPrefab != null)
+            {
+                var companion = Instantiate(companionPrefab);
+                var cc = companion.GetComponent<CompanionController>();
+                if (cc != null)
+                {
+                    cc.player = transform;
+                }
+            }
+        }
         if (rb == null)
             Debug.LogError("PlayerMove: No Rigidbody2D found on player!");
         if (animator == null)

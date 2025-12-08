@@ -52,6 +52,18 @@ public class CurrencyManagerScript : MonoBehaviour
         private set;
     } = false;
 
+    [field: SerializeField]
+    public bool CompanionUnlocked
+    {
+        get;
+        private set;
+    } = false;
+
+    public void UnlockCompanion()
+    {
+        CompanionUnlocked = true;
+    }
+
     public void addSpd()
     {
         Spd += 1f;

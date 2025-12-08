@@ -141,8 +141,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController2D
   moveSpeed: 5
   projectilePrefab: {fileID: 134984500541757491, guid: 5dc6848835b407b43929a84a4fd40ff0, type: 3}
+  dashShield: {fileID: 0}
   firePoint: {fileID: 7122154548386884680}
   projectileOffset: 0.5
+  baseFireCooldown: 0.5
+  companionPrefab: {fileID: 646841824580853642, guid: 1ade666aabcbe41f3a9bd0dee49bcc32, type: 3}
+  dashSpeed: 20
+  dashDuration: 0.15
+  dashCooldown: 0.5
+  isDashing: 0
+  isInvincible: 0
 --- !u!50 &1680659234206589633
 Rigidbody2D:
   serializedVersion: 5

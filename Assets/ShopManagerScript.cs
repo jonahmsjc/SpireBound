@@ -7,6 +7,7 @@ public class ShopManagerScript : MonoBehaviour
     public TextMeshProUGUI CurrentFunds;
     public int statCost = 25;
     public int dashAttackCostGold = 100;
+    public int companionCostGold = 200;
 
     void Start()
     {
@@ -89,6 +90,27 @@ public class ShopManagerScript : MonoBehaviour
         CurrencyManagerScript.Instance.Exp -= statCost;
         CurrencyManagerScript.Instance.addSpd();
         UpdateFundsUI();
+    }
+
+    public void OnClick_BuyCompanion()
+    {
+        if (CurrencyManagerScript.Instance == null) return;
+
+        if (CurrencyManagerScript.Instance.CompanionUnlocked)
+        {
+            Debug.Log("Companion already purchased.");
+            return;
+        }
+
+        if (CurrencyManagerScript.Instance.Gold < companionCostGold)
+        {
+            Debug.Log("Not enough gold to buy companion.");
+            return;
+        }
+
+        CurrencyManagerScript.Instance.Gold -= companionCostGold;
+        CurrencyManagerScript.Instance.UnlockCompanion();
+        Debug.Log("Companion purchased.");
     }
 
     public void OnClick_BuyDashAttack()
